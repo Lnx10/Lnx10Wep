@@ -1,12 +1,10 @@
-  a:link {
-    color : black;
-  }
-  a:visited {
-    color : black;
-  }
-  a:hover {
-    color : black;
-  }
-  a:active {
-    color : black
-  }
+a {
+    display: block;
+    padding: 5px;
+    color: #000;
+}
+
+.discord {
+    text-decoration: none;
+    text-decoration-color: black;
+}
