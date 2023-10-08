@@ -2,9 +2,15 @@ a {
     display: block;
     padding: 5px;
     color: #000;
+    text-decoration: none;
 }
 
-.discord {
+ .discord {
     text-decoration: none;
+    text-align: center;
     text-decoration-color: black;
 }
+
+ .imageclass {
+    text-align: center;
+ }
