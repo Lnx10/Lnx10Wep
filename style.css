@@ -1,0 +1,24 @@
+.wrapper {
+    background: navy;
+    min-height: 100dvh;
+  }
+
+  .content {
+    background: coral;
+    padding: 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+  }
+
+  a:link {
+    color : black;
+  }
+  a:visited {
+    color : black;
+  }
+  a:hover {
+    color : black;
+  }
+  a:active {
+    color : black
+  }
