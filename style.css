@@ -15,3 +15,72 @@ a {
     text-align: center;
 
  }
+
+.find-btn{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+	text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: skyblue;
+
+}
+
+.my-button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #7287FD;
+    color: #ffffff;
+    border: 2px solid #7287FD;
+    border-radius: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center; /* 버튼 텍스트 가운데 정렬 */
+    transition: border-color 0.3s ease;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* 자식 요소를 수평으로 가운데 정렬 */
+}
+
+.my-button:hover {
+    border-color: blue;
+}
+
+/* 버튼 기본 스타일 */
+.my-awesome-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; /* 여러 속성에 대한 트랜지션 */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 그림자 효과 추가 */
+    text-align: center;
+    justify-content: center;
+}
+
+/* 호버 효과로 배경색, 텍스트 색상, 테두리 색상 변경 */
+.my-awesome-button:hover {
+    background-color: white;
+    color: black;
+    border-color: blue; /* 테두리 색상 변경 */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.my-awesome-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+ 
+
+
+
+
+
